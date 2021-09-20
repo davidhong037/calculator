@@ -38,6 +38,9 @@ if (mathSymbol === 'cb') {
 if (mathSymbol === 'any') {
 	console.log (Math.pow(num1, num2));
 }
+if (mathSymbol === '%') {
+	console.log (num1 % num2);
+}
 
 console.log('mathSymbol', mathSymbol);
 console.log('num1', num1);
