@@ -35,7 +35,9 @@ if (mathSymbol === 'sq') {
 if (mathSymbol === 'cb') {
 	console.log (Math.pow(num1, 3), Math.pow(num2, 3));
 }
-
+if (mathSymbol === 'any') {
+	console.log (Math.pow(num1, num2));
+}
 
 console.log('mathSymbol', mathSymbol);
 console.log('num1', num1);
