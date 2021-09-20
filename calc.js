@@ -29,6 +29,9 @@ if (mathSymbol === '/') {
 if (mathSymbol === 'sqrt') {
 	console.log (Math.sqrt(num1), Math.sqrt(num2));
 }
+if (mathSymbol === 'sq') {
+	console.log (Math.pow(num1, 2), Math.pow(num2, 2));
+}
 
 console.log('mathSymbol', mathSymbol);
 console.log('num1', num1);
